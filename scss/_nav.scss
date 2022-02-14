@@ -1,0 +1,18 @@
+.flexMenu {
+    display: flex;
+    flex-wrap: nowrap;
+    border: black;
+    border-style: inset;
+    background-color: $mainColor;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+li {
+    a{
+        margin: 5px;
+        &:hover {
+            background-color: Yellow;
+        }
+    }
+}
