@@ -120,7 +120,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        grid-area: cat;
         padding: 2%;
         margin: 2%;
         width: 100%;
@@ -224,7 +223,7 @@
     font-size: 16px;
     border-radius: 10px;
 }
-/* Tablet */
+/* Tablet FALTA CORREGIR */
 @media only screen and (min-width: 481px) and (max-width: 1023px)  {
 
     .flexMenu {
