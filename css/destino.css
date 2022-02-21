@@ -61,4 +61,61 @@ body {
   padding-left: 8%;
 }
 
+.footerText {
+  padding: 1vh 1vh;
+}
+
+.botones {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ebf3d5;
+  margin: 5px;
+  color: black;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.introText {
+  text-align: center;
+  padding: 5%;
+  border: 3%;
+  background-color: whitesmoke;
+}
+
+.historiaText {
+  text-align: center;
+  padding: 5%;
+  border: 3%;
+  background-color: whitesmoke;
+}
+
+.cvButton {
+  position: relative;
+  left: 35%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.animacion {
+  animation-name: titulo;
+  animation-iteration-count: 1;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes titulo {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: skewX(30dex);
+  }
+}
+
 /*# sourceMappingURL=destino.css.map */
