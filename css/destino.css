@@ -406,5 +406,16 @@ body {
     right: 3%;
   }
 }
+.botonRedes-twitter {
+  background-color: #55acee;
+}
+
+.botonRedes-facebook {
+  background-color: #3a5795;
+}
+
+.botonRedes-youtube {
+  background-color: red;
+}
 
 /*# sourceMappingURL=destino.css.map */
