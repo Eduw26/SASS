@@ -1,10 +1,9 @@
-/* Error: expected ";".
+/* Error: Can't find stylesheet to import.
  *   ,
- * 5 | )
- *   |  ^
+ * 6 | @import "_entrega";
+ *   |         ^^^^^^^^^^
  *   '
- *   scss\_exclusivoEntrega.scss 5:2  @import
- *   scss\origen.scss 6:9             root stylesheet */
+ *   scss\origen.scss 6:9  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a   \2577 \a 5 \2502  )\d\a   \2502   ^\a   \2575 \a   scss\\_exclusivoEntrega.scss 5:2  @import\a   scss\\origen.scss 6:9             root stylesheet';
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 6 \2502  @import \"_entrega\";\a   \2502          ^^^^^^^^^^\a   \2575 \a   scss\\origen.scss 6:9  root stylesheet";
 }

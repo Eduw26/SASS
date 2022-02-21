@@ -2,10 +2,10 @@ $redes:(
     twitter: #55acee,
     facebook: #3a5795,
     youtube: red
-)
+);
 
 @each $key, $value in list {
-    .botonRedes-#{#key} {
-        background-color: $value
+    .botonRedes-#{$key} {
+        background-color: $value;
     }
 }
