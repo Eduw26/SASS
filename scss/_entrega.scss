@@ -9,3 +9,21 @@ $redes:(
         background-color: $value;
     }
 }
+
+@mixin size ($width, $height ) {
+    width: $width;
+    height: $height;
+    
+}
+
+.asd {
+    @include size (20vh, 30%)
+}
+
+.asd1 {
+    @include size (10px, 100%)
+}
+
+.asd2 {
+    @include size (1px 100px)
+}
