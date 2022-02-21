@@ -46,35 +46,8 @@ body {
   width: 25%;
 }
 
-.bodyVideo {
-  display: flex;
-  justify-content: center;
-  margin-left: 8%;
-  padding: 1%;
-  padding-left: 15%;
-}
-
-.bodyImg {
-  padding: 1%;
-  margin: 1%;
-  margin-left: 8%;
-  padding-left: 8%;
-}
-
 .footerText {
   padding: 1vh 1vh;
-}
-
-.botones {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #ebf3d5;
-  margin: 5px;
-  color: black;
-  padding: 15px 15px;
-  text-decoration: none;
-  font-size: 16px;
-  border-radius: 5px;
 }
 
 .introText {
@@ -89,11 +62,6 @@ body {
   padding: 5%;
   border: 3%;
   background-color: whitesmoke;
-}
-
-.cvButton {
-  position: relative;
-  left: 35%;
 }
 
 .form {
@@ -115,6 +83,332 @@ body {
   50% {
     opacity: 1;
     transform: skewX(30dex);
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .flexMenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    border: black;
+    border-style: inset;
+    background-color: #ebf3d5;
+    margin: 0.5%;
+    padding: 0.5%;
+    list-style-type: none;
+    width: 98%;
+  }
+
+  .bodyVideo {
+    display: flex;
+    justify-content: center;
+    margin-left: 8%;
+    padding: 1%;
+    padding-left: 15%;
+  }
+
+  .bodyImg {
+    padding: 1%;
+    margin: 1%;
+    margin-left: 8%;
+    padding-left: 8%;
+  }
+
+  .cvButton {
+    position: relative;
+    left: 35%;
+  }
+
+  .botones {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ebf3d5;
+    margin: 5px;
+    color: black;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+}
+/* Cel */
+@media only screen and (max-width: 480px) {
+  .flexMenu {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .menuStyle {
+    background-color: #ebf3d5;
+    font-family: "Times New Roman", Times, serif;
+    padding: 0.5% 42%;
+    margin: 0.5%;
+    border: white;
+    border-radius: 1%;
+    border-style: solid;
+    font-size: 20px;
+  }
+
+  .menuTitle {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    background-color: khaki;
+    text-align: center;
+  }
+
+  .searchButton input {
+    height: 2%;
+    width: 40vh;
+  }
+
+  .searchButton {
+    padding: 5px;
+    margin: 3%;
+    align-self: center;
+  }
+
+  .bodyVideo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .bodyImg {
+    margin: 1vh;
+    width: 100%;
+  }
+
+  .map {
+    width: 100%;
+  }
+
+  .botones {
+    background-color: #ebf3d5;
+    margin: 3%;
+    padding: 3%;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .prod {
+    padding: 3%;
+    margin: 3%;
+  }
+
+  .cat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: cat;
+    padding: 2%;
+    margin: 2%;
+    width: 100%;
+    justify-self: center;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    margin: 5%;
+    height: 50%;
+  }
+
+  .fPagos {
+    margin: 3%;
+    padding: 3%;
+    text-align: center;
+  }
+
+  .mFix {
+    align-items: center;
+  }
+
+  .usVideo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .introText {
+    text-align: center;
+    padding: 5%;
+    margin: 3%;
+    background-color: whitesmoke;
+  }
+
+  .historiaText {
+    text-align: center;
+    padding: 5%;
+    border: 3%;
+    background-color: whitesmoke;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+  .infoStyle {
+    margin: 3%;
+    padding: 3%;
+  }
+
+  .conMap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .conInfo {
+    padding: 3%;
+    margin: 3%;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+  }
+
+  .checkout {
+    width: 35%;
+    justify-self: center;
+    padding: 3%;
+    margin: 3%;
+  }
+
+  .bytalign {
+    text-align: center;
+  }
+
+  .cvButton {
+    position: relative;
+    right: 3%;
+  }
+}
+.botones {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ebf3d5;
+  margin: 10px;
+  color: black;
+  padding: 4%;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  .flexMenu {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+    margin: 2%;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #333;
+  }
+
+  .menuTitle {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    background-color: khaki;
+    text-align: center;
+  }
+
+  .searchButton input {
+    height: 2%;
+    width: 40vh;
+  }
+
+  .searchButton {
+    padding: 5px;
+    margin: 3%;
+    align-self: center;
+  }
+
+  .bodyVideo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .bodyImg {
+    margin: 1vh;
+    width: 100%;
+  }
+
+  .map {
+    width: 100%;
+  }
+
+  .cat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin: 2%;
+    width: 100%;
+  }
+
+  .usVideo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .introText {
+    text-align: center;
+    padding: 5%;
+    margin: 3%;
+    background-color: whitesmoke;
+  }
+
+  .historiaText {
+    text-align: center;
+    padding: 5%;
+    border: 3%;
+    background-color: whitesmoke;
+  }
+
+  .conMap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .conInfo {
+    padding: 3%;
+    margin: 3%;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+  }
+
+  .checkout {
+    width: 30%;
+    justify-self: center;
+    padding: 3%;
+    margin: 3%;
+  }
+
+  .bytalign {
+    text-align: center;
+  }
+
+  .cvButton {
+    position: relative;
+    right: 3%;
   }
 }
 
