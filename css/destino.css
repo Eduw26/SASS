@@ -1,13 +1,13 @@
-/* Error: Missing argument $height .
+/* Error: Missing argument $margin.
  *     ,
- * 13  | @mixin size ($width, $height ) {
- *     |        ======================= declaration
+ * 17  | @mixin size ($margin, $padding ) {
+ *     |        ========================= declaration
  * ... |
- * 28  |     @include size (1px 100px)
- *     |     ^^^^^^^^^^^^^^^^^^^^^^^^^ invocation
+ * 41  |     @include size
+ *     |     ^^^^^^^^^^^^^ invocation
  *     '
- *   scss\_entrega.scss 28:5  size()
- *   scss\_entrega.scss 28:5  @import
+ *   scss\_entrega.scss 41:5  size()
+ *   scss\_entrega.scss 41:5  @import
  *   scss\origen.scss 6:9     root stylesheet */
 
 body::before {
@@ -18,5 +18,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Missing argument $height .\a     \2577 \a 13  \2502  @mixin size ($width, $height ) {\d\a     \2502         \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a... \2502 \a 28  \2502      @include size (1px 100px)\d\a     \2502      ^^^^^^^^^^^^^^^^^^^^^^^^^ invocation\a     \2575 \a   scss\\_entrega.scss 28:5  size()\a   scss\\_entrega.scss 28:5  @import\a   scss\\origen.scss 6:9     root stylesheet";
+  content: "Error: Missing argument $margin.\a     \2577 \a 17  \2502  @mixin size ($margin, $padding ) {\d\a     \2502         \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a... \2502 \a 41  \2502      @include size\a     \2502      ^^^^^^^^^^^^^ invocation\a     \2575 \a   scss\\_entrega.scss 41:5  size()\a   scss\\_entrega.scss 41:5  @import\a   scss\\origen.scss 6:9     root stylesheet";
 }
