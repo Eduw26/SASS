@@ -1,0 +1,5 @@
+Agrege keywords: Erbeli, Aceites, Industria, Grasas, Hidraulico, CABA
+Agrege descripcion: Erbeli Laboratorios Industriales es una empresa lider en aceites y grasas de todo tipo, contanto con la mas alta calidad y bases de YPF, nuestros aceites estas hechos a mano para cumplir con todas sus necesidades.
+Agrege carpeta de media y la importe
+Agrege carpeta de entrega solo para facilitar la vista de lo que hay que entregar
+Replique los cambios del head en todas las paginas
