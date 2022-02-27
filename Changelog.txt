@@ -3,3 +3,6 @@ Agrege descripcion: Erbeli Laboratorios Industriales es una empresa lider en ace
 Agrege carpeta de media y la importe
 Agrege carpeta de entrega solo para facilitar la vista de lo que hay que entregar
 Replique los cambios del head en todas las paginas
+Full responsive
+Fix en gitignore para que ignore node modules
+JSON comprimido
