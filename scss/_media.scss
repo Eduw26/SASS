@@ -21,7 +21,7 @@
         padding: 1%;
         padding-left: 15%;
     }
-    
+
     .bodyImg {
         padding: 1%;
         margin: 1%;
@@ -30,8 +30,13 @@
     }
 
     .cvButton {
-        position: relative;
-        left: 35%;
+        background-color: rgb(235, 243, 213);
+        margin: 5px;
+        color: black;
+        padding: 15px 15px;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 5px;
     }
 
     .botones {
@@ -45,7 +50,24 @@
         font-size: 16px;
         border-radius: 5px;
     }
+
+    .conText {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    .conForm {
+        width: 20%;
+        align-items: flex-end;
+        margin-left: 15%;
+    }
 }
+
+
+
 
 /* Cel */
 @media only screen and (max-width: 480px) {
@@ -98,8 +120,8 @@
 
     .map {
         width: 100%;
+        text-align: center;
     }
-
 
     .botones {
         background-color: rgb(235, 243, 213);
@@ -134,12 +156,20 @@
         height: 50%;
     }
 
+    .generalCenter {
+        text-align: center;
+        margin: 1%;
+        padding: 1%;
+    }
+
+    .nosVideo {
+        display: flex;
+    }
 
     .fPagos {
         margin: 3%;
         padding: 3%;
         text-align: center;
-
     }
 
     .mFix {
@@ -183,16 +213,14 @@
         width: 100%;
     }
 
-    .conInfo {
-        padding: 3%;
-        margin: 3%;
-
+    .conText {
+        text-align: center;
     }
 
-    .form {
-        display: flex;
-        flex-direction: column;
-        padding: 3%;
+
+    .conForm input {
+        height: 2%;
+        width: 40vh;
     }
 
     .checkout {
@@ -207,24 +235,34 @@
     }
 
     .cvButton {
-        position: relative;
-        right: 3%;
+        background-color: rgb(235, 243, 213);
+        margin: 5px;
+        color: black;
+        padding: 15px 15px;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 5px;
     }
+
 }
+
 
 .botones {
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(235, 243, 213);
-    margin: 10px;
+    margin: 1%;
     color: black;
     padding: 4%;
     text-decoration: none;
     font-size: 16px;
-    border-radius: 10px;
+    border-radius: 5%;
+    text-align: center;
+
 }
-/* Tablet FALTA CORREGIR */
-@media only screen and (min-width: 481px) and (max-width: 1023px)  {
+
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
 
     .flexMenu {
         flex-direction: row;
@@ -236,12 +274,6 @@
         border-right: 1px solid #333;
     }
 
-    .menuTitle {
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 40px;
-        background-color: khaki;
-        text-align: center;
-    }
 
     .searchButton input {
         height: 2%;
@@ -267,15 +299,12 @@
 
     .map {
         width: 100%;
+        text-align: center;
     }
 
     .cat {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         padding: 2%;
         margin: 2%;
-        width: 100%;
     }
 
     .usVideo {
@@ -304,19 +333,22 @@
         width: 100%;
     }
 
-    .conInfo {
+    .conText {
         padding: 3%;
         margin: 3%;
+        text-align: center;
     }
 
-    .form {
+    .conForm {
         display: flex;
         flex-direction: column;
-        padding: 3%;
+        padding: 1%;
+        margin: 1%;
+        width: 40%;
     }
 
     .checkout {
-        width: 30%;
+        width: 20%;
         justify-self: center;
         padding: 3%;
         margin: 3%;
@@ -326,9 +358,19 @@
         text-align: center;
     }
 
+    .conForm input {
+        height: 5%;
+        width: 40vh;
+    }
+
     .cvButton {
-        position: relative;
-        right: 3%;
+        background-color: rgb(235, 243, 213);
+        margin: 5px;
+        color: black;
+        padding: 15px 15px;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 5px;
     }
 
 

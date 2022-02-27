@@ -116,7 +116,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "sass scss/origen.scss css/destino.css",
+    "build-css": "sass scss/import.scss css/estilo.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   
