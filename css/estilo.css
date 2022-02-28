@@ -341,8 +341,11 @@ body {
     align-items: center;
     padding: 2%;
     margin: 2%;
-    border-left: 1px solid #fff;
-    border-right: 1px solid #333;
+    display: flex;
+    border: black;
+    border-style: inset;
+    background-color: #ebf3d5;
+    list-style-type: none;
   }
 
   .searchButton input {

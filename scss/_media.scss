@@ -1,3 +1,4 @@
+// PC
 @media only screen and (min-width: 1024px) {
     .flexMenu {
         display: flex;
@@ -261,7 +262,7 @@
 
 }
 
-
+// Tablet
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
 
     .flexMenu {
@@ -270,8 +271,11 @@
         align-items: center;
         padding: 2%;
         margin: 2%;
-        border-left: 1px solid #fff;
-        border-right: 1px solid #333;
+        display: flex;
+        border: black;
+        border-style: inset;
+        background-color: rgb(235, 243, 213);
+        list-style-type: none;
     }
 
 
